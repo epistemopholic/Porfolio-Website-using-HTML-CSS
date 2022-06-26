@@ -63,6 +63,7 @@
 	height: 100vh;
     padding-top: 30px;
     display: flex;
+    justify-content: center;
 }
 
 @keyframes gradient {
@@ -79,9 +80,8 @@
 
 
 .card {
-    margin-left: 100px;
     padding: 20px;
-    text-align: left;
+    margin: 30px;
     font-size: 20px;
     color: rgb(255, 255, 255);
     width: 70vh;
@@ -90,9 +90,7 @@
     margin-top: 30px;
 }
 
-.right{
-    flex: 1;
-}
+
 
 .contact {
     background-image: linear-gradient(180deg, rgba(35, 156, 255, 0.3), rgba(196, 47, 255, 0.3)), url(/imgs/bg2.jpg);
