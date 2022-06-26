@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bg{
+    background-image: linear-gradient(180deg, rgba(35, 156, 255, 0.3), rgba(196, 47, 255, 0.3)), url(/imgs/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.navbar {
+    background-color: rgb(0, 0, 0, 0.1);
+    line-height: 100px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    float: left;
+    padding-left: 100px;
+}
+
+.navbar ul {
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar a:active{
+    color: rgb(186 70 104);
+}
+
+.about {
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    width: 720px;
+    background-color: rgba(186, 70, 104, 0.5);
+    border-radius: 10px;
+
+}
+
+.skills{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    padding-top: 30px;
+    display: flex;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.card {
+    margin-left: 100px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 70vh;
+    background-color: rgba(186, 70, 104, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.right{
+    flex: 1;
+}
+
+.contact {
+    background-image: linear-gradient(180deg, rgba(35, 156, 255, 0.3), rgba(196, 47, 255, 0.3)), url(/imgs/bg2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.forum {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+input[type=text], [type=email], select, textarea {
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid rgb(186 70 104); 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 20px;
+    resize: both;
+  }
+
+textarea{
+    height: 250px;
+    width: 450px;
+}
+  
+input[type=submit] {
+    background-color: rgb(186 70 104);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgb(186 70 104);
+}
+
+.heading{
+    background-color: rgb(0, 0, 0, 0.1);
+    color: white;
+    padding-top: 12px;
+    height: 50px;
+    text-align: center;
+}
